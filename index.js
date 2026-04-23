@@ -23,7 +23,7 @@
 // output = 25
 
 // 3. Declare a constant country and assign value "India".
-// var country = "India";
+// const country = "India";
 // console.log(country)
 // output = India
 
@@ -139,8 +139,10 @@
     // l = 5;
     // k = "5"
     // console.log(5==="5")
-    strict 
+    //  ===strict operator 
     // output = false
+
+    22. 
     
 
 
