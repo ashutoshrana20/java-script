@@ -142,7 +142,283 @@
     //  ===strict operator 
     // output = false
 
-    22. 
+    // 22. console.log(5 === "5") 
+    // let m = 5;
+    // let n = "5"
+    // console.log(5==="5")
+    //  ===strict operator 
+    // output = false
+    
+    // 23.console.log(10 > 5)
+  // const w = 10;
+  // const v = 5;
+  // console.log(10>5);
+  // output = true 
+
+  // 24.console.log(10 < 5)
+  //  b = 10;
+  //  c = 5;
+  //  console.log(10<5);
+    // output = false
+
+  // Q25.console.log(true && false)
+
+//   let a = true;
+//   let b = false;
+//  console.log(a && b);
+   // output = false
+
+// 26. Check if number is even or odd.
+//  let number = 7;
+//  if(number%2===0){
+//   console.log(even)
+//  } else{
+//    console.log(odd)
+//  }
+//  output = odd
+
+
+//  27. Check if person is adult or minor.
+//  const age = 18;
+//  if(age < 10){
+//   console.log("adult")
+//  } else{
+//   console.log("minor")
+//  }
+//  output = minor
+
+// 28. Check if number is positive or negative.
+  // let num = -6;
+  // if(num < 0){
+  //   console.log("nevative")
+  // } else{
+  //   console.log("positive")
+  // }
+//  output = negative
+
+// ⚡ Short Method (ternary operator):
+// let num = 7;
+
+// let result = (num > 0) ? "Positive" : (num < 0) ? "Negative" : "Zero";
+
+// console.log(result);
+
+
+// 29. Find largest of two numbers.
+//  let a = 20;
+//  let b = 30;
+
+//  if(a<b){
+//   console.log("A is larger")
+//  }else if(a<b){
+//   console.log("B is larger")
+//  } else{
+//   console.log("Zero")
+//  }
+//  output = A is larger
+
+// 30. Find largest of two numbers.
+//  let a = 25;
+//  let b = 20;
+//  if(a>b){
+//   console.log("largest num is: ",a);
+// } else if(a<b){
+//   console.log("largest num is :",b)
+// } else{
+//   console.log("Both are equal")
+// }
+// output = largest num is:  25
+
+// 31. Check if number is zero.
+    // let num = 0;
+    // if(num == 0){
+    //   console.log("number is zero")
+    // } else{
+    //   console.log("number is not zero")
+    // }
+    // output = number is zero
+
+// 32. Create grade system:
+  //  let marks = 85;
+  //  if(marks>=90){
+  //   console.log("Grade A")
+  //  } else if(marks>=80){
+  //   console.log("Grade B")
+  //  } else if(marks>=70){
+  //   console.log("Grade C")
+  //  } else{
+  //   console.log("Fail")
+  //  }
+  //  output = Grade B
+
+//  33.Check if number divisible by 5. 
+//  let number = 22;
+//  if(number%5===0){
+//   console.log("number is divide by 5")
+//  } else{
+//   console.log(" number not divide by 5")
+//  }
+//  output = not divide by 5
+
+// 34. Check if number divisible by 3 and 5.
+  //  let number = 18;
+   
+  //  if(number%3===0 && number%5===0){
+  //   console.log(" numnber is divide by 3&5")
+  //  } else{
+  //   console.log(" number is not divide by 3&5")
+  //  }
+  //  output = number is not divide by 3&5
+
+  // 35. Check if year is leap year (basic logic)
+    // const year = 2026;
+    // if(year%4===0){
+    //   console.log("This is leap year")
+    // } else{
+    //   console.log("not a leap year")
+    // }
+    // output = not a leap year
+
+
+    // ✅ Ternary Operator kya hota hai?
+
+// 👉 Ternary operator (? :) ek short form of if-else hota hai
+// Iska use hum chhoti conditions ko ek line me likhne ke liye karte hain
+
+// condition ? value_if_true : value_if_false
+
+//  let number = 10;
+//   let result = (number > 0) ? "positive" : "negative"
+//   console.log(result);
+
+// let n = 10;
+// let m = 20;
+ 
+// let largest = (n>m) ? n:m;
+// console.log(largest)
+
+// let v = 30;
+// let c = 40;
+//  let smal  = (v<c) ?  v:c;
+//  console.log(smal);
+
+
+// let number = 7;
+//   let result = (number%2===0)? "Even": "odd"
+//   console.log(result)
+
+
+// let num = 20;
+// let result = (num%2===0)? "Evan" : "odd"
+// console.log(result)
+
+//  let marks = 40;
+//  let pass = (marks > 50 ) ? "pass": "fail";
+//  console.log("pass")
+
+// let amount = 1200;
+// let discount = (amount<1000) ? "Discount":"no Discount"
+// console.log(discount)
+
+// let age = 20;
+// let year = (20<age) ? "minor":"Adult";
+// console.log(year); 
+
+// let number = 15;
+// let num = (number%2===0)? "yes" : "no";
+// console.log(num)
+
+// let number = 20;
+// if(number%2===0){
+//   console.log("even")
+// } else{
+//   console.log("odd")
+// }
+
+
+
+// 36. Check adult/minor using ternary.
+//  let age = 25;
+//  let year = (age>30)? "Adult":"minor";
+//  console.log(year)
+//  output = minor
+
+//37. Check pass/fail using ternary.
+    //  let number = 65;
+    //  let marks = (number>65)? "pass":"fail";
+    //  console.log(marks);
+    //  output = Fail
+
+// // 38. Find greater of two numbers using ternary.
+//  let a = 10;
+//  let b = 20;
+//  let greater = (a<b)? a:b;
+//  console.log("greater number is :", greater);
+
+//  let a = 10;
+//  let b = 10;
+//  let number = (a>b)? a : (b>a)? b :"both are equal"
+//  console.log(number);
+
+//  39. Find greater of two numbers using ternary. 
+  // let v = 10;
+  // let c = 20;
+  // let number = (v>c)?  v : (c>v)? c: "both are equal";
+  // console.log(number);
+  
+  // 40. Check positive/negative using ternary
+  // let number = 20;
+  // let num = (number%2===0)? "positive" : "negative" ;
+  // console.log(num);
+  // output = positive
+
+  // 41. Print numbers from 1 to 10.
+  //  for ( let i=1;i<=10;i++){ 
+  // console.log(i)
+  // }
+  // 42.Print numbers from 10 to 1
+  // for (let i=10;i>=1;i--){
+  //   console.log(i)
+  // }
+
+  // while loop
+  // let i = 10;
+  // while(i>=1){
+  //   console.log(i)
+  //   i--;
+  // }
+
+  // let i = 0;
+  // while(i<=10){
+  //   console.log(i)
+  //   i++;
+  // }
+    
+  //  let i = "I LOVE YOU";
+  // for (let i=1;i<=100;i++){ 
+  // console.log("I LOVE YOU ");
+  // }
+
+  let sum = 0;
+  for (let i=1;i<=5;i++){
+    sum =+  i; 
+  }
+console.log(sum);
+
+
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
     
 
 
