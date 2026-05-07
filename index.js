@@ -39,6 +39,7 @@
 // let age = 30;
 // console.log(age);
 // output 30
+
  
 //====== Create variables with data types:=====
 
@@ -79,14 +80,16 @@
     // Q12 typeof 100
       // let  z = 100;
       // console.log(typeof z);  
-     
+     // output = number
+
       // z = 200;
       // console.log( typeof z);
       //  output = number
 
   //  13. typeof true
     // const t = true;
-    // console.log(typeof t); 
+    // console.log(typeof t);
+    // output = boolean 
 
     // 14. typeof undefined
     //   let U;
@@ -139,14 +142,14 @@
     // l = 5;
     // k = "5"
     // console.log(5==="5")
-    //  ===strict operator 
+    //  === strict operator 
     // output = false
 
     // 22. console.log(5 === "5") 
     // let m = 5;
     // let n = "5"
     // console.log(5==="5")
-    //  ===strict operator 
+    //  === l/;strict operator 
     // output = false
     
     // 23.console.log(10 > 5)
@@ -399,47 +402,272 @@
   // console.log("I LOVE YOU ");
   // }
 
-  let sum = 0;
-  for (let i=1;i<=5;i++){
-    sum =+  i; 
-  }
-console.log(sum);
+//   let sum = 0;
+//   for (let i=1;i<=5;i++){
+//     sum =+  i; 
+//   }
+// console.log(sum);
+
+
+// let sum = 0;
+// for(let i=1;i<=10;i++){
+//   sum += i;
+// }
+// console.log(sum)
+
+// let number = 5;
+// for (let i=1;i<=10;i++){
+//   console.log(number*i)
+// }
+
+// if (true) {
+//   console.log("Hello","  How are you");
+// }
+
+// let name = Ashu;
+// console.log(name);
+
+
+// let _x = "_Ashu";
+// console.log(_x)
+
+//  let num = 10;
+//       num = 20;
+//     console.log(num);
 
 
 
+// let y = 12;    //ak brr declear kr sakte h, brr brr declear nhi krr sakte, 
+// let x = 15;     //ak brr declear krr sakte h. fir reassign krrr sakte h 
+// console.log(x)
 
- 
 
 
+// let a = 10;
+// function test(){
+
+//   let b = 20;
+
+// function inner(){
+//   console.log(a)
+//   console.log(b)
+// }
+// inner();
+
+// }
+// test();
+
+// let a = 10;
+// function test(){
+//   let a = 20;
+//   console.log(a);
+// }
+
+// let a = 20;
+// console.log(a);
+
+
+//   let total = 0;
+
+//  total = total + 100;
+//  total = total  + 200;
+//   console.log(total)
 
 
   
+// let age = 17;
+
+// if(age<=18){
+//     let mess = "you can vote"
+//     console.log(mess)
+// }else if (age>=20) {
+//   let mess = "not a vote"
+//   console.log(mess)
+
+//   let vote = "yor are final"
+//   console.log(vote)
+// }
+
+// var a = 10;
+// {
+//   var a = 20;
+//   console.log(a)
+//   var a = 51
+//   console.log(a)
+// }
+// console.log(a)
+
+// let x = 5;
+// x--;
+// let z = x;
+// console.log(z)
 
 
+// console.log("hello")    
+
+// let e = 10;
+// e--;
+// console.log(e)
+
+// let c = 5;
+// let z = c**2;
+// console.log(z)
+
+// let b = "Hello"
+// let c = "Hello"
+
+// console.log(b*c)
 
 
+// {
+// let x=10
+// y=x;
 
-    
+// console.log(x);
+// }
 
+// let x = "Ashu";
+// let y = 5
+// console.log(typeof(x+y));
 
+// let x = 10;
+// let t = 15;
+// console.log(x==t);
 
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
+// let x = 10;
+// let t = 15;
+// console.log(typeof(x===t));
 
 
+// ======    && operator ========== //
 
+// let age = 20;
+// let hasId = false;
+
+// if(age <=18 && hasId){
+//   console.log("Allowed in Vote");
+// }else{
+//   console.log("not allowed")
+// }
+
+
+// let isAdmin = true;
+// let hasPermission  = true;
+// isAdmin && hasPermission && console.log("Acces Guranted");
+
+// let x = "hii";
+// let t = 100;
+
+// console.log("hii"&&100);
+
+
+// let day = 3;
+// switch  ( day) {
+//   case 1:
+//     console.log("Monday")
+//     break;
+//     case 2:
+//       console.log("tuesday")
+//       break;
+//       case 3:
+//         console.log("wednesday")
+//         break;
+//         default:
+//         console.log("sunday")
+
+// } 
+
+
+// let day = 8;
+// switch(day){
+//   case 1:
+//   console.log("monday")
+//   break;
+//   case 2:
+//     console.log("tuesday")
+//     break;
+//     case 3:
+//       console.log("wednesday")
+//       break;
+//       case 4:
+//         console.log("thrusday")
+//         break;
+//         default:
+//           console.log("invalid")
+        
+        
+// }
+
+
+// let age = 18;
+// if(age>=20){
+//   console.log("You are not driver")
+
+// }else{
+//   console.log("you are driver")
+// }
+
+// if (hour < 10) {
+  
+ 
+//   greeting = "good day";
+// console.log(hour);
+9
+// }
+
+//   let hour = 14;   
+// if (hour <= 18) {
+//   console.log("Good day");
+// } else {
+//   console.log("Good evening");
+// }
+
+
+let age = 20;
+let  result = ( age>=25) ? "minor": "Adult";
+  console.log(result);
+
+console.log("hello");
+
+// let day = 4;
+// switch (day){
+//   case 1:
+//   console.log("monday")
+//   break;
+//   case 2:
+//     console.log("tuesday")
+//     break;
+//     case 3:
+//       console.log("wednesday")
+//       break;
+//       case 4:
+//         console.log("thrusday")
+//         break;
+//         default:
+//           console.log("invalide")
+// } 
+
+
+let months = 4;
+switch(months){
+  case 1:
+    console.log("janurary")
+    break;
+    case 2:
+      console.log("february")
+      break;
+       case 3:
+        console.log("march")
+        break;
+        case 4:
+          console.log("April")
+          break;
+          case 5:
+            console.log("May")
+            break;
+            default:
+              console.log("invalide")
+
+}
   
 
