@@ -399,43 +399,179 @@
   // console.log("I LOVE YOU ");
   // }
 
-  let sum = 0;
-  for (let i=1;i<=5;i++){
-    sum =+  i; 
-  }
-console.log(sum);
+//   let sum = 0;
+//   for (let i=1;i<=5;i++){
+//     sum =+  i; 
+//   }
+// console.log(sum);
+
+
+// let sum = 0;
+// for(let i=1;i<=10;i++){
+//   sum += i;
+// }
+// console.log(sum)
+
+// let number = 5;
+// for (let i=1;i<=10;i++){
+//   console.log(number*i)
+// }
+
+// if (true) {
+//   console.log("Hello","  How are you");
+// }
+
+// let name = Ashu;
+// console.log(name);
+
+
+// let _x = "_Ashu";
+// console.log(_x)
+
+//  let num = 10;
+//       num = 20;
+//     console.log(num);
 
 
 
+// let y = 12;    //ak brr declear kr sakte h, brr brr declear nhi krr sakte, 
+// let x = 15;     //ak brr declear krr sakte h. fir reassign krrr sakte h 
+// console.log(x)
 
- 
 
 
+// let a = 10;
+// function test(){
+
+//   let b = 20;
+
+// function inner(){
+//   console.log(a)
+//   console.log(b)
+// }
+// inner();
+
+// }
+// test();
+
+// let a = 10;
+// function test(){
+//   let a = 20;
+//   console.log(a);
+// }
+
+// let a = 20;
+// console.log(a);
+
+
+//   let total = 0;
+
+//  total = total + 100;
+//  total = total  + 200;
+//   console.log(total)
 
 
   
+// let age = 17;
+
+// if(age<=18){
+//     let mess = "you can vote"
+//     console.log(mess)
+// }else if (age>=20) {
+//   let mess = "not a vote"
+//   console.log(mess)
+
+//   let vote = "yor are final"
+//   console.log(vote)
+// }
+
+// var a = 10;
+// {
+//   var a = 20;
+//   console.log(a)
+//   var a = 51
+//   console.log(a)
+// }
+// console.log(a)
+
+// let x = 5;
+// x--;
+// let z = x;
+// console.log(z)
 
 
+// console.log("hello")    
+
+// let e = 10;
+// e--;
+// console.log(e)
+
+// let c = 5;
+// let z = c**2;
+// console.log(z)
+
+// let b = "Hello"
+// let c = "Hello"
+
+// console.log(b*c)
 
 
+// {
+// let x=10
+// y=x;
 
-    
+// console.log(x);
+// }
+
+// let x = "Ashu";
+// let y = 5
+// console.log(typeof(x+y));
+
+// let name  = "Ashutosh";
+// console.log(name.length)
+
+// let i = 1;
+// while(i<=30){
+//   if(i%3===0){
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// let name = "Ashutosh";
+// console.log(typeof(name))
+
+// let age = 20;
+// console.log(typeof(age))
+
+//   let day = 3;
+//   switch(day){
+//     case 1:
+//     console.log("monady")
+//     break;
+//     case 2:
+//       console.log("tuesday")
+//       break;
+//       case 3:
+//         console.log("wednesday")
+//         break;
+//         case 4:
+//           console.log("thursday")
+
+//   }  
+  
+//   let name = "Ashutosh Rana"
+//   console.log(name.slice(1,5))
+//   console.log(name.slice(1,9))
 
 
+//   let text = "Apple, Banana, Kiwi";
+// console.log = text.slice(7);
 
 
-
-
-
-
-
-
-
-
-
-
-     
-
+// let str = "Hello";
+// str[2] = "k";
+// console.log(str.replace)
 
 
 
