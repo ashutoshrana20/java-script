@@ -440,8 +440,7 @@
 // let y = 12;    //ak brr declear kr sakte h, brr brr declear nhi krr sakte, 
 // let x = 15;     //ak brr declear krr sakte h. fir reassign krrr sakte h 
 // console.log(x)
-<<<<<<< HEAD
-=======
+
 
 
 
@@ -623,14 +622,14 @@
 // } else {
 //   console.log("Good evening");
 // }
->>>>>>> 6ab92491d0710335c5883d2b005df0faba04172a
 
 
-let age = 20;
-let  result = ( age>=25) ? "minor": "Adult";
-  console.log(result);
 
-console.log("hello");
+// let age = 20;
+// let  result = ( age>=25) ? "minor": "Adult";
+//   console.log(result);
+
+// console.log("hello");
 
 // let day = 4;
 // switch (day){
@@ -681,7 +680,6 @@ console.log("hello");
 //   console.log(total)
 
 
-<<<<<<< HEAD
   
 // let age = 17;
 
@@ -786,30 +784,291 @@ console.log("hello");
 
 
 
+// let months = 4;
+// switch(months){
+//   case 1:
+//     console.log("janurary")
+//     break;
+//     case 2:
+//       console.log("february")
+//       break;
+//        case 3:
+//         console.log("march")
+//         break;
+//         case 4:
+//           console.log("April")
+//           break;
+//           case 5:
+//             console.log("May")
+//             break;
+//             default:
+//               console.log("invalide")
 
+// }
 
-=======
-let months = 4;
-switch(months){
-  case 1:
-    console.log("janurary")
-    break;
-    case 2:
-      console.log("february")
-      break;
-       case 3:
-        console.log("march")
-        break;
-        case 4:
-          console.log("April")
-          break;
-          case 5:
-            console.log("May")
-            break;
-            default:
-              console.log("invalide")
+// let name = "Ashu";
+// console.log(name)
 
-}
->>>>>>> 6ab92491d0710335c5883d2b005df0faba04172a
+// let str = "javaScript  ";
+// console.log(str.indexOf("S"))
+// console.log(typeof(str))
+// console.log(str.slice(2,5))
+// console.log(str.replace("java","rohit"))
+// console.log(str.split(","))
+// console.log(str.repeat(3))
+
+// let name = "hi ";
+// console.log(name.repeat(3))
   
+// let nam = "Ashu ";
+// let manee = "Rohit"
+// console.log(nam.concat(manee));
+
+
+
+// let name = " ashutosh ";
+
+// console.log(name.trim().toUpperCase().slice(0,5));
+
+// let str = "javaScript";
+// console.log(str.charAt(4))
+
+// let name = "Ashu ";
+// let anmee = "rohit";
+// console.log(name.concat(anmee))
+
+// let a = 3;
+// let b = 2;
+// let c = "4";
+// console.log(3-"2"+4)
+
+
+// function greet() {
+//   console.log("Hello Ashu");
+// }
+// greet()
+
+
+
+  // let a =  hii();
+  // console.log(a);
+
+  // let num = 10;
+  // if(num%2===0){
+    
+  //   console.log("even")
+
+  // }else{
+  //  console.log("odd")
+  // }
+
+  // function add(a,b){
+  //   return a+b;
+
+  // }
+  // let result = add(5,4)
+  // console.log(result)
+
+  // function add(a,x){
+  //   return  a*x;
+
+  // }
+  // let result = add (4,6)
+  // console.log(result)
+
+
+  // function show(){
+  //   console.log(1);
+  //   console.log(2);
+  //   console.log(3);
+  // }
+
+  // show();
+  // show();
+  // show();
+  // show();
+
+
+//  function calculator(op,x,y){
+//   let result=0;
+//   if(op==="add"){
+//     result=x+y;
+//   }
+//   else if(op==="multiply"){
+//     result=x*y;
+//   }
+//   else if(op==="subtract"){
+//     result=x-y;
+//   }
+//   else if(op==="divide"){
+//     result=x/y;
+//   }
+//   else{
+//     result=-1;
+//   }
+
+//   return result;
+//  }
+
+
+//  let result=calculator("divide",18,6);
+//  console.log('Result: ',result)
+
+
+// let student={
+//   name:"Ashu",
+//   age:"23",
+//   role:"Web developer",
+//   sayHello:function (){
+//     console.log("Hello "+this.name)
+//   }
+// }
+
+
+// student.language="Javascript"
+
+// delete student.role
+// console.log(student)
+
+// student.sayHello()
+
+// console.log(typeof (student.sayHello))
+
+
+// let student = {
+//   name:"Ashu",
+//   age:23,
+//   Bgroup:"o+",
+//   sayHello:function(){
+//   console.log("Hello",student)
+//   }
+// }
+
+
+// console.log(student)
+// student['name'] = "jatin"
+// console.log("Name:",student.name)
+// student['age'] = 25
+// console.log("Age :",student.age)
+// student.age = 65
+// console.log(student.age)
+// student.Bgroup = "O-"
+// console.log("Bgroup:",student.Bgroup)
+
+
+// let car = {
+//   name:"Audi",
+//   model:"500",
+//   tyres:"6",
+//   audio:"Jbl",
+//   straing:1,
+//   gears:8,
+
+//   greet:function(){
+//     console.log("this is my new Car")
+//   }
+
+// }
+
+// for(let key in car){
+//   console.log("The value of ",key," is",car[key])
+// }
+
+
+// Object Methods
+
+// 1.To get all the keys of an Object
+
+let me={
+  name:"Ashu",
+  age:25
+}
+
+// console.log(Object.values(me))
+
+
+function a(){
+  console.log("a");
+}
+
+function b(func){
+  func()
+  console.log("b")
+}
+
+
+// b(a)
+
+function fetchApi(callback){
+  console.log("1")
+  setTimeout(()=>{
+    console.log("data fetched")
+    callback();
+  },3000)
+  
+}
+
+
+function fetch(){
+   console.log("3")
+ }
+// fetchApi(fetch)
+
+
+
+// let car = {
+//   name:"Audi",
+//   model:"500",
+//   tyres:"6",
+//   audio:"Jbl",
+//   straing:1,
+//   gears:8,
+
+//   greet:function(){
+//     console.log("this is my new Car")
+//   }
+
+// }
+
+// for(let key in car){
+//   car[key]
+// }
+
+// for(let key in car){
+//   car[key]
+// }
+
+
+// {
+//   var var_a=10;
+// }
+// console.log(var_a)
+
+
+// let var_a=11
+// {
+//   let var_a=22
+//   console.log(var_a)
+
+// }
+
+//   const var_a=11
+
+// console.log(var_a)
+
+// setTimeout(()=>{
+//   console.log("aFTER 5 second")
+// },5000)
+
+// setTimeout(()=>{
+// console.log("aftrr 5 mint")
+// },4000)
+
+// ()=>{
+
+// }
+
+setTimeout(() => {
+   console.log("after 5 mints")
+}, 5000);
 
