@@ -979,39 +979,39 @@
 
 // 1.To get all the keys of an Object
 
-let me={
-  name:"Ashu",
-  age:25
-}
+// let me={
+//   name:"Ashu",
+//   age:25
+// }
 
 // console.log(Object.values(me))
 
 
-function a(){
-  console.log("a");
-}
+// function a(){
+//   console.log("a");
+// }
 
-function b(func){
-  func()
-  console.log("b")
-}
+// function b(func){
+//   func()
+//   console.log("b")
+// }
 
 
 // b(a)
 
-function fetchApi(callback){
-  console.log("1")
-  setTimeout(()=>{
-    console.log("data fetched")
-    callback();
-  },3000)
+// function fetchApi(callback){
+//   console.log("1")
+//   setTimeout(()=>{
+//     console.log("data fetched")
+//     callback();
+//   },3000)
   
-}
+// }
 
 
-function fetch(){
-   console.log("3")
- }
+// function fetch(){
+//    console.log("3")
+//  }
 // fetchApi(fetch)
 
 
@@ -1068,7 +1068,230 @@ function fetch(){
 
 // }
 
-setTimeout(() => {
-   console.log("after 5 mints")
-}, 5000);
+// setTimeout(() => {
+//    console.log("after 5 mints")
+// }, 5000);
+
+// setTimeout(()=>{
+// console.log("hello world")
+// },5000)
+
+// let student ={
+//   name:"Ashu",
+//   age:24,
+//   height:5.8,
+// }
+// console.log(student)
+// console.log("student Age:",student.age)
+// console.log("student name:",student.name)
+
+
+// function a(){
+//   console.log("a");
+// }
+
+// function b(func){
+//   func()
+//   console.log("b")
+// }
+
+// function a(){
+//   console.log(a)
+// }
+//   function b(func){
+    
+//     console.log(a)
+//   }
+
+// a(b)
+
+// let name = "Ashutosh";
+
+// function greet(){
+//   console.log(name)
+// }
+// greet()
+
+
+
+
+// function outer(){
+//   let message = "hello"
+//   setTimeout(()=>{
+//     console.log("after 5 second")
+//     console.log("Hello world")
+//     },5000)
+
+// function inner(){
+//   console.log("message")
+// }
+// inner();
+// }
+// outer();
+// greet()
+
+
+
+// function calculator(opp, x,y){
+  // let result = 0;
+
+//   if(opp==="add"){
+//     result =  x+y;
+//   }
+//  else if(opp==="subtract"){ 
+//   result = x-y;
+//   }
+//  else if(opp==="multply"){
+//   result = x*y;
+//  }
+//  else if(opp==="divide"){
+//   result = x/y
+//  }
+//  else{
+//   result = -1
+//  }
+
+//  return result;
+
+// }
+// let result = calculator("divide", 20,5)
+// console.log("Result",result)
+
+
+// let num = 20;
+// if(num%2===0){
+//   console.log("Even")
+// } else{
+//   console.log("Odd")
+// }
+
+// let age = 20;
+// if(age>=18){
+//     console.log("Adult")
+// } else{
+//   console.log("Minor")
+// }
+
+// let num = 70;
+// if(num === 150){
+//   console.log("Cong. you win")
+// } else if(num>=67 && num>=73){
+//   console.log("Nearest , Try again")
+// } else {
+//   console.log("try again")
+// }
+
+
+// let num = 5;
+// if(num<0){
+//   console.log("number is negative")
+// }else if(num>0){
+//   console.log("number is positive")
+// }else{
+//     console.log("zero")
+
+  // }
+
+  // let a = 30;
+  // let b = 20;
+
+  // if(a>b && b>a){
+  //   console.log("b is greater")
+  // } else{
+  //   console.log("a is greater ")
+  // }
+
+
+  // let i = 0;
+  // for(let i=0;i<=10;i++){
+  //   console.log(i*3)
+  // }
+  
+
+
+  // let sum = 0
+  // for(let i=0;i<=10;i++){
+  //   sum = sum+i
+
+  // }
+  // console.log(sum)
+
+// for(i=0;i<=20;i++){
+//   console.log("i love you ")
+// }
+
+
+
+// for(let i=10;i>=0;i--){
+//   console.log(i)
+// }
+
+// let person = {
+//   name:"Ashu",
+//   age:23,3`
+// height:5.8,
+// type:true,
+  
+
+//   greet:function(){
+
+//   console.log("hello")
+//   }
+// }
+// console.log(typeof(person))
+//  person.name = "Rohit"
+// console.log(person.name)
+// person.age = 20;
+// console.log(person.age)
+// person.greet()
+ 
+// console.log(person)
+// console.log(typeof(person.height))
+// console.log(typeof(person.name))
+// console.log(typeof(person.age))
+// console.log(typeof(person.type))
+//  delete person.height
+//  for (let key in person)
+//  console.log(person)
+
+// let a = 10;
+// b = a++;
+// console.log( "sdfghjkl",a,b)
+
+
+
+// if(false){
+//   console.log("hello");
+// }
+
+// if(false){
+//   console.log("Hello");
+// }
+
+
+// day='Monday';
+
+
+// switch(day){
+//   case "Monday":
+//     console.log("Day is Monday")
+//     case "Tuesday":
+//       console.log("Day is Tuesday")
+//       break;
+//       case "Wednesday":
+//     console.log("Day is Wednesday")
+//     break;
+//     case "Thrusday":
+//     console.log("Day is Thrusday")
+//     break;
+
+// }
+
+
+
+let name = "Ashu"
+ function greet(){
+  console.log(name)
+ }
+ greet()
 
