@@ -1269,6 +1269,9 @@
 // }
 
 
+
+
+
 // day='Monday';
 
 
@@ -1289,9 +1292,31 @@
 
 
 
-let name = "Ashu"
- function greet(){
-  console.log(name)
- }
- greet()
+// let name = "Ashu"
+//  function greet(){
+//   console.log(name)
+//  }
+//  greet()
 
+
+
+
+// let str=new String('String')
+// console.log(typeof str)
+
+
+// var w = 25;
+// {
+// let a = 10;
+// var w = 20;
+// if(true){
+//   let a= 10;
+// }
+
+
+// }
+
+// console.log(w)
+
+
+!! (0)
