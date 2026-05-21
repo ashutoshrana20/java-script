@@ -1318,5 +1318,58 @@
 
 // console.log(w)
 
+// console.log(12 != 13)
+// console.log(12 !== 13) 
 
-!! (0)
+
+// let a = 10;
+// let b = "20";
+
+// console.log( b===a);
+
+// console.log(a)
+// console.log(b)
+
+// console.log(typeof(null))
+// console.log([1,2,3] instanceof Array)
+
+
+// let isAdmin = true;
+// let isloggin = false;
+// if(isAdmin||isloggin){
+//   console.log("Asses gurant");
+
+// }else{
+//   console.log("Not gurantt")
+// }
+
+// let age = 20;
+// if(age>32||age<12){
+//   console.log("age is high")
+// } else{
+//   console.log("age is low")
+// }
+
+
+// let temp = 45;
+// if(!(temp<25)){
+//   console.log("true")
+// }else{
+//   console.log("false")
+// }
+
+// let num = 20;
+// if(!(num<25)){
+//   console.log("true")
+// } else{
+//   console.log("false")
+// }
+
+// let age = 24;
+// let agee = (age>25)? "yes": "no"
+// console.log(agee);
+
+// let score = 55;
+// let pass = score>=90 ? "A": score>=80 ? "B": score>=70 ? "C": "fail" ;
+// console.log(pass);
+
