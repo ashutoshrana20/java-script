@@ -1373,3 +1373,41 @@
 // let pass = score>=90 ? "A": score>=80 ? "B": score>=70 ? "C": "fail" ;
 // console.log(pass);
 
+
+// let n = 5;
+// let result  = n-- + ++n;
+// console.log(result)
+
+// let count = 5;
+// if(count-- === 5){
+//   console.log("matched")
+// } else{
+//   console.log("not mached")
+// }
+
+// function getmarks(score){
+//   if(score>=90 && score>=80){
+//     return "A";
+//   } else if(score>=80 && score>=70){
+//     return "B";
+//   } else if(score>=70 && score>=60){
+//     return "c";
+//   } else if(score>=60 && score>=50){
+//     return "D"
+//   } else{
+//     return "Fail"
+//   }
+
+// }
+
+//  console.log(getmarks(50))
+
+
+
+// let i = 1;
+// while(i<=10){
+//     console.log(5*i)
+//     i++;
+// };
+
+
