@@ -1411,3 +1411,110 @@
 // };
 
 
+
+
+// let number=Math.floor(Math.random()*20)+1;
+
+// let guess=0;
+
+// while(number!=guess){
+//  guess=prompt("Guess the Number")
+
+//  if(guess>number){
+//   alert("You have a smaller number")
+//  }
+//  else if(guess==number){
+//   alert("You wont the number was",number);
+//  }
+//  else{
+//   alert("Your have to guess a larger number ",guess);
+//  }
+
+
+// }
+
+//  let i = 30
+// for( i= 1; i<=20;i++){
+//   if(i%2===0){
+//     console.log(i)
+//   };
+// };
+
+
+// let i = 1;
+// while(i<=15){
+//   if(i%2!=0 ){
+//     console.log(i)
+//   }
+//   i++;
+// }
+
+// let i = 1;
+// while(i<=15){
+//   if(i%2!=0){
+//     console.log(i)
+//   }
+//   i++;
+// }
+
+
+// for(let i=1; i<=10; i++){
+//   console.log(i*5)
+// }
+
+// let i = 1;
+// while(i<=10){
+//   console.log(i*5)
+//   i++
+// }
+ 
+// let sum = 0;
+// for(let i=0;i<=20;i++){
+//   sum+=i;
+//   console.log(sum)
+// }
+
+// let i = 1;
+// let sum = 0;
+// while(i<=30){
+//   sum +=i;
+  
+//   console.log(sum)
+//   i++;
+// }
+
+
+// let sum = 1;
+// for(let i=1;i<=10;i++){
+  
+//   sum  = sum + i;
+//   console.log(sum)
+// }
+
+
+// for(i=1;i<=50;i++){
+//   if(i%3===0){
+//     console.log(i)
+//   }
+// }
+
+// let i = 1;
+// while(i<=50){
+//   if(i%3===0){
+//     console.log(i)
+//   }
+//   i++;
+// }
+ 
+let even = 0;
+let odd = 0
+let num = 8;
+for(let i=1;i<=num;i++){
+  if(i%2===0){
+    even++
+  } else{
+    odd++
+  }
+}
+
+console.log("Number of even: ",even," and number of odd : ",odd)
