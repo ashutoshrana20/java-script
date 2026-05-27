@@ -1506,15 +1506,97 @@
 //   i++;
 // }
  
-let even = 0;
-let odd = 0
-let num = 8;
-for(let i=1;i<=num;i++){
-  if(i%2===0){
-    even++
-  } else{
-    odd++
-  }
-}
+// let even = 0;
+// let odd = 0
+// let num = 8;
+// for(let i=1;i<=num;i++){
+//   if(i%2===0){
+//     even++
+//   } else{
+//     odd++
+//   }
+// }
 
-console.log("Number of even: ",even," and number of odd : ",odd)
+// console.log("Number of even: ",even," and number of odd : ",odd)
+
+ 
+
+
+// let num = prompt("enter a number")
+
+// for(let i=1;i<=25;i++){ 
+
+// if(num%2 === 0){
+//   console.log(`${i} is even`)
+// } else {
+//   console.log(`${i} is even`)
+// }
+// }
+
+
+// let num = prompt("enter a number")
+// for(let i=1;i<=10;i++){
+//   if(num%2 === 0){
+//     console.log(`${i} is even`)
+//   } else{
+//     console.log(`${i} is odd`)
+//   }
+// }
+
+// let count = 0;
+// for(let i=0; i<=100; i++){
+//   if(i%5===0 && i%3===0){
+    
+//     count++;
+//     console.log(i)
+//   }
+ 
+// }
+
+// console.log(count);
+
+// for(let i=1;i<=100;i++){
+//   if(i%7===0){  
+//     break;
+//   }
+//   console.log(i)
+// } 
+
+// for(let i=0;i<=20;i++){
+//   if(i%3===0){
+//     continue;
+//   }
+//   else{
+//     console.log(i)
+//   }
+// }
+
+
+// let count = 0;
+// let i = 1;
+// while(count<=5){
+//   console.log(i)
+//   i = i+2;
+//   count++;
+// }
+
+// function dance(v1){
+//   console.log(`${v1} naach rha h` )
+// }
+// dance("ghoda")
+// dance("gadha")
+// dance("")
+
+
+
+
+// for(let i= 0;i<=10;i++){
+//   console.log(i)
+// }
+
+// let age = 20;
+// if(age>=25){
+//   console.log("audut")
+// } else{
+//   console.log("minor")
+// }
