@@ -1600,3 +1600,75 @@
 // } else{
 //   console.log("minor")
 // }
+
+
+
+
+// let balance=2000;
+
+// function checkBalance(){
+//   console.log("Your current balance is ",balance);
+// }
+
+// function deposit(amount){
+//   balance=balance+amount;
+//   console.log("Money deposited: ",amount)
+// }
+
+// function withdrawl(amount){
+//   if(amount>balance){
+//     console.log("Insufficient balance for this transaction");
+//     checkBalance();
+//   }
+//   else{
+//     balance=balance-amount;
+//     console.log("Money withdrawl: ",amount)
+//   }
+// }
+
+// checkBalance()
+// withdrawl(2500)
+
+
+// let balance = 2000;
+
+// function checkBalance(){
+//   console.log("your current balance is:", balance)
+// }
+
+// function deposit(amount){
+//   balance = balance + amount;
+//   console.log("your amount is deposited:", amount)
+// }
+// function withdrawl(amount){
+//   balance = balance-amount;
+//   if(withdrawl>amount){
+//     console.log("insufficant balance")
+//     return 0;
+//   }
+//   console.log("Your total amount is :", amount)
+// }
+
+// checkBalance()
+// deposit(5000)
+// checkBalance()
+// withdrawl(1000)
+// checkBalance()
+// withdrawl()
+
+
+function dance(v1){
+  console.log(`${v1} naach rha h `)
+
+}
+dance("gadha")
+dance("ghoda")
+dance("hello") 
+
+function abcd(...val){
+  console.log(val)
+}
+abcd(1,2,3,4,5,6)
+
+
+
