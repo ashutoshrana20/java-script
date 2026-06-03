@@ -1646,29 +1646,341 @@
 //     console.log("insufficant balance")
 //     return 0;
 //   }
-//   console.log("Your total amount is :", amount)
+//   else{
+
+//   }
+//   console.log("Your withdawl amount is :", amount)
 // }
 
 // checkBalance()
-// deposit(5000)
-// checkBalance()
-// withdrawl(1000)
-// checkBalance()
-// withdrawl()
 
 
-function dance(v1){
-  console.log(`${v1} naach rha h `)
 
+// function dance(v1){
+//   console.log(`${v1} naach rha h `)
+
+// }
+// dance("gadha")
+// dance("ghoda")
+// dance("hello")
+
+
+
+// function abcd(...val){
+//   console.log(val)
+// }
+// abcd(1,2,3,4,5,6)
+
+// write a BMI calculate
+
+// function BMI(weight,height){
+//   return weight/(height*height)
+
+// }
+// console.log(BMI(69,1.7));
+
+
+
+// let arr = [11,25,36,52,45,65]
+  
+// arr.forEach(function(val){
+ 
+//     console.log(val+5)
+  
+ 
+
+// })
+
+
+// let arre = [10,54,32,56,54,65,14,]
+
+// let newarr = arr.filter(function(val){
+//   if(val>4) return true
+// })
+
+
+// let array = [10,20,30,40,25,45]
+// array.pop()
+// console.log(array)
+// last value remove kerta h 
+
+
+// let arra = [10,20,30,40,25,45]
+// arra.push(100)
+// console.log(arra)
+[ 5, 1, 2, 3, 4 ]
+// push ka matlab last m add kerna
+
+
+// let array = [1,2,3,4]
+// array.unshift(5)
+// console.log(array)
+// start m element add kerta h 
+
+
+// let fruits = ["apple","orange","mango"]
+// fruits.pop()
+// console.log(fruits)
+
+
+
+
+
+
+// let object = {
+//     name:"AShu",
+//     age:24,
+
+//     car : {
+//     model:2025,
+//     name:"scarpio"
+//    },
+
+//     student:{
+//       name:"Rohit",
+//       age:25
+//     },
+//     Height:5.10,
+//     rollno:21
+
+// }
+
+// let aa = "name"
+
+// object["name"]
+
+// console.log(object.student.name)
+// console.log(object)
+// console.log(object.name)
+// console.log(object.age)
+// console.log (object["age"])
+
+// console.log (object["age"])
+
+// console.log (object["name"])
+
+// let student = {
+//   name:"jatin",
+//   age:22,
+//   Bgroup:"o+"
+// }
+// console.log(student)
+
+// for(let chacha in student){
+//   console.log(chacha,student[chacha])
+// }
+
+
+// const mobile = {
+//   brand: "Apple",
+//   model: "iPhone 17",
+//   price: 80000
+// };
+
+// console.log(mobile)
+// console.log(mobile.brand)
+ 
+// mobile.color = "black"
+// console.log(mobile)
+
+// delete mobile.model
+// console.log(mobile)
+
+// mobile.price = 1000000
+// console.log(mobile)
+
+
+// const car ={
+//   name:"verna",
+//   model:2025,
+//   price:120000,
+
+//   greet: function(){
+//     console.log("wELCOME TO Car")
+//     return 5;
+//   }
+// }
+
+// console.log(car.greet())
+
+
+// function task(name){
+//   console.log("Task 1 Complete")
+//   console.log("Task 2 Complete")
+//   console.log("Task 3 Complete")
+
+//   return name+" your task has been done";
+// }
+
+// // console.log(task("Ashutosh "))
+
+// let info=task("Ashu");
+// // let info="Ashu your task has been done"
+// console.log(info)
+
+// const student = {
+//   name: "Ashu",
+
+//   greet :function(){
+//     console.log("helllo Ashu")
+//   }
+  
+// };
+// student.greet()
+
+// const car = {
+//   company: "Hyundai",
+//   model: "Creta",
+
+//   start: function () {
+//   console.log("car started")
+//   }
+// };
+// car.start()
+
+
+// const car ={
+//   company: "hundai",
+
+//   start:function(){
+//     console.log("car started")
+//   },
+//   stop:function(){
+//     console.log("car is stopped")
+//   }
+// };
+// car.start()
+// car.stop()
+
+// let calculate = {
+//   name:"calculator",
+//   model:2024,
+//   add :function(a,b){
+//     return a+b
+//   },
+//   subtract :function(a,b){
+//     return a-b
+
+//   },
+
+// }
+//  console.log(calculate.model)
+
+// let res=calculate.add(5,6)
+// let ress = calculate.subtract(10,6)
+// console.log("res: ",res)
+// console.log("ress:",ress)
+
+
+
+
+
+
+
+// function known(){
+
+//   if(age<5){
+
+//     console.log("phle chalna toh sikh le");
+
+//     return 0
+
+//   }
+
+//   console.log("You are ",age," years old");
+
+
+
+// }
+
+
+
+// known()
+
+// let user = {
+//   name:"Ashu",
+//   greet(){
+//     console.log("Hello")
+//   }
+// };
+// console.log(user.name)
+// user.greet()
+
+
+// let mobile = {
+//   brand:"Apple",
+//   price: 80000,
+//   color:"white"
+
+
+// }
+// console.log(Object.keys(mobile))
+
+// let car = {
+//   name:"Verna",
+//   model: 2025,
+//   color: "Black"
+  
+// }
+// console.log(Object.values(car))
+
+// var student = {
+//     name:"Ashu",
+//     class:10,
+//     age: 20
+// }
+// console.log(Object.entries(student))
+
+
+// const car = {
+//   company: "Hyundai",
+//   model: "Creta"
+// };
+
+// for (let key in car) {
+//   console.log(key);
+// }
+
+// for (let key in car) {
+//   console.log(car[key]);
+// }
+
+
+// const boy = {
+//   name:"Ashu",
+//   age: 24,
+//   greet(){
+//     console.log("hello "+ this.name)
+//   }
+// }
+// boy.greet();
+
+
+// let car = {
+//   name:"Creta",
+//   model:2025,
+//   color:"white",
+//    hello(){
+//    console.log("Hiii " + this.name)
+//    }
+// }
+// car.hello()
+
+
+// let number = {
+//  number:10,
+//  number2:20,
+//  add(){
+//   console.log(this.number+this.number2)
+//  }
+// }
+// number.add()
+
+const student = {
+  name:"Ashu",
+  age:24,
+  intro(){
+    console.log("My name is " + this.name + " my age is " + this.age)
+  }
 }
-dance("gadha")
-dance("ghoda")
-dance("hello") 
-
-function abcd(...val){
-  console.log(val)
-}
-abcd(1,2,3,4,5,6)
-
-
-
+student.intro()
