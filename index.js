@@ -1893,17 +1893,105 @@
 // console.log(b)
 
 
-const students = [
-  { name: "Ashu", age: 24 },
-  { name: "Rahul", age: 22 },
-  { name: "Aman", age: 21 }
-];
-const hlo = students.map(function(student){
-  return student.name;
-})
-console.log(hlo)
+// const students = [
+//   { name: "Ashu", age: 24 },
+//   { name: "Rahul", age: 22 },
+//   { name: "Aman", age: 21 }
+// ];
+// const hlo = students.map(function(student){
+//   return student.age;
+// })
+// console.log(hlo)
 
 
+//  let abcd = document.getElementById("abcd")
+//  console.dir(abcd)
 
 
+// let asd = document.getElementsByClassName("asd")
+// console.log(asd)
+
+
+//  let hello = document.getElementsByClassName("hello")
+//  console.log(hello)
+
+//  let my = document.getElementsByClassName("dom")
+//  console.log(my)
+
+
+// let hyy = document.querySelectorAll("h1")
+// console.dir(hyy)
+
+// let h1 = document.getElementsByClassName("asd")
+// console.log(h1)
+
+// Array.from(h1).forEach(element=>{
+//   element.innerHTML="hello how r u "
+// })
+
+
+// let a = 20;
+// let b = 30;
+// {
+//   let a = 10;
+//   let b = 30
+//   console.log(a)
+// }
+// {
+//   let a = 10
+//   console.log(a)
+//   console.log(b)
+// }
+// console.log(a)
+
+// js Object BASE LANGUAGE H 
+// C++, JAVA OBJECT ORIENTATION LANGUAGE H 
+
+
+// console.log(a);
+
+
+// var a = 10;
+
+
+//  let h1 = document.querySelector("h1");
+//  h1.outerHTML="<h2>Helllo</h2>"
+
+// h1.style.color="red"
+
+// console.log(h1)
+
+
+// let h2 = document.querySelector("h2")
+// h2.style.color='red'
+
+// let hii = document.querySelector("#dom")
+// hii.style.backgroundColor = "yellow"
+// hii.style.color = "red"
+// hii.innerHTML = "this is my name"
+// hii.remove()
+// console.log(hii)
+
+// function changeText(){
+//   let heading = document.getElementById("heading")
+// heading.innerText = "hello"
+// }
+
+//  let heading = document.querySelector("#heading")
+//  onclick.innerText = "hello world"
+
+
+console.log(document)
+
+console.log(document.title)
+
+// let h1 = document.getElementById("heading")
+// h1.innerHTML = "my name is ashu"
+// h1.remove()
+// console.log(h1)
+
+function hello(){
+  let btn = document.getElementById("hello")
+  btn.innerText = "my mane is Ashu"
+}
 
