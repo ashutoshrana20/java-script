@@ -1856,7 +1856,7 @@
 // ]
 // for(let s of students){
 //   console.log(s)
-// } 
+// }
 
 // let obj={
 //   name:"Jatin",
@@ -1867,8 +1867,6 @@
 // for(let m in obj){
 //   console.log(m,obj[m]);
 // }
-
-
 
 // function A(){
 //   let a=25;
@@ -1882,8 +1880,6 @@
 //   A()
 // }
 
-
-
 // B();
 
 // let a = 10;
@@ -1891,7 +1887,6 @@
 // let b = a++ + a++ + ++a
 
 // console.log(b)
-
 
 // const students = [
 //   { name: "Ashu", age: 24 },
@@ -1903,21 +1898,17 @@
 // })
 // console.log(hlo)
 
-
 //  let abcd = document.getElementById("abcd")
 //  console.dir(abcd)
 
-
 // let asd = document.getElementsByClassName("asd")
 // console.log(asd)
-
 
 //  let hello = document.getElementsByClassName("hello")
 //  console.log(hello)
 
 //  let my = document.getElementsByClassName("dom")
 //  console.log(my)
-
 
 // let hyy = document.querySelectorAll("h1")
 // console.dir(hyy)
@@ -1928,7 +1919,6 @@
 // Array.from(h1).forEach(element=>{
 //   element.innerHTML="hello how r u "
 // })
-
 
 // let a = 20;
 // let b = 30;
@@ -1944,15 +1934,12 @@
 // }
 // console.log(a)
 
-// js Object BASE LANGUAGE H 
-// C++, JAVA OBJECT ORIENTATION LANGUAGE H 
-
+// js Object BASE LANGUAGE H
+// C++, JAVA OBJECT ORIENTATION LANGUAGE H
 
 // console.log(a);
 
-
 // var a = 10;
-
 
 //  let h1 = document.querySelector("h1");
 //  h1.outerHTML="<h2>Helllo</h2>"
@@ -1960,7 +1947,6 @@
 // h1.style.color="red"
 
 // console.log(h1)
-
 
 // let h2 = document.querySelector("h2")
 // h2.style.color='red'
@@ -1980,18 +1966,143 @@
 //  let heading = document.querySelector("#heading")
 //  onclick.innerText = "hello world"
 
+// console.log (document);
 
-console.log(document)
-
-console.log(document.title)
+// console.log (document.title);
 
 // let h1 = document.getElementById("heading")
 // h1.innerHTML = "my name is ashu"
 // h1.remove()
 // console.log(h1)
 
-function hello(){
-  let btn = document.getElementById("hello")
-  btn.innerText = "my mane is Ashu"
-}
+// function hello(){
+//   let btn = document.getElementById("hello")
+//   btn.innerText = "my mane is Ashu"
+// }
 
+// let btn=document.querySelector("#btn");
+
+// btn.addEventListener('click',()=>{
+//   hello()
+// })
+
+// btn.addEventListener.querySelector("#btn");
+
+// function hello(){
+//   console.log("hello")
+//   let h2 = document.getElementById("content")
+//    h2.innerHTML = "my name is ashu"
+//    h2.hiden  = true;
+// }
+
+// let a = document.querySelector ('a');
+// console.log (a);
+// a.style.backgroundcolor = 'red';
+// a.href = 'https://www.google.com.hello_world';
+// a.innerHTML = 'how are you';
+// console.log(a.getAttribute("href"));
+// a.removeAttribute("href")
+
+
+
+
+
+// let img = document.querySelector ('img');
+// img.setAttribute (
+//   'src',
+//   'https://imgs.search.brave.com/rtkBvPE7OxXW_VMXFOWLzG0nOVh5VKEAavnpYdEejEc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L25vdXBlLzIwMTUv/MTAvdW5zcGxhc2gt/aXRfYmVpc3BpZWwu/anBn'
+// );
+
+
+
+// let h1 = document.createElement("h1");
+// h1.textContent = "hello ji kya hall"
+// console.log(h1)
+// document.body.appendChild(h1)
+// h1.style.color = "pink"
+
+
+
+// let h2 = document.createElement("h3");
+// h2.textContent = "heyy m bahr say aaya hu "
+// h2.style.color = "green"
+
+// document.querySelector("div").append (h2)
+// h2.style.color = "red";
+// h2.style.backgroundColor = "blue" 
+
+// let hyy = document.querySelector("hyy")
+// hyy.style.color = "brown"
+
+// console.log(document)
+// console.log(document.title)
+// console.log(window)
+
+//  let h1 = document.querySelector("h1")
+//  console.log(h1)
+
+
+//  let heading = document.querySelector(".heading")
+//  Array.from(heading).forEach(element=>{
+//   P.style.color="red"
+// })
+//  console.log(heading)
+
+// let heading = document.querySelector("#heading")
+
+//     heading.style.color = "brown";
+
+//  let h3 = document.getElementById("heading")
+ 
+//  heading.style.color = "red";
+//  heading.style.background = "pink"
+//  h3.innerHTML = "<i>Hello jatin</i>"
+// //  h1.style.backgroundColor = "yellow";
+// h3.style.fontSize = "50px";
+// h3.style.textAlign = "center";
+
+
+//  console.log(h3.innerHTML)
+
+// let A = document.getElementById("link")
+// console.log(A.getAttribute("href"))
+
+
+// let img = document.querySelector(".img")
+// console.log(img.getAttribute("src"))
+// img.innerHTML = 4551122.58//65/85
+
+
+// let a = document.getElementById("myid")
+// console.log(a.getAttribute("href"))
+// a.innerHTML = 4556/5256/856
+
+// let image = document.getElementById("image")
+// console.log(image.setAttribute("src"," cat.jpg"))
+
+
+
+// let A = document.getElementById("link")
+// console.log(A.setAttribute("href","youtube.com"))
+
+
+// let dom = document.getElementById("asd")
+// dom.setAttribute("href","Amazone.com001")
+
+
+
+// let form = document.getElementById("input")
+// form.removeAttribute("placeholder");
+
+
+//  let dom = document.createElement("h2")
+//  dom.innerText = "hello jatin"
+//  document.body.appendChild(dom)
+//  console.log(dom)
+
+
+// let list = document.createElement("li")
+// list.innerText = "java script"
+
+// let ul = document.getElementById("list")
+// document.body.appendChild(list)
