@@ -2106,3 +2106,25 @@
 
 // let ul = document.getElementById("list")
 // document.body.appendChild(list)
+
+
+// let li = document.getElementById("list")
+// li.innerText = "javaScript"
+// document.getElementById("list").prepend(li);
+
+// let h1 = document.getElementById("title")
+// let btn = document.getElementById("btn")
+// let btn2 = document.getElementById("btn2")
+
+// btn.addEventListener("click",function(){
+//   h1.style.color = "pink"
+//   h1.innerText = "Hello Ashu"
+//   console.log("Hello Ashu kya hall h ")
+// })
+
+// btn2.addEventListener("click",function(){
+//   h1.style.color = "pink"
+//   h1.innerText = "Hello jatin"
+//   console.log("Hello Jatin Kya hall h ")
+// })
+
