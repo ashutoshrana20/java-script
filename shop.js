@@ -111,4 +111,59 @@
 // });
 
 
-document.querySelector("")
+// let abcd = document.querySelector("#abcd");
+
+
+// abcd.addEventListener("mouseover", function(){
+//     abcd.style.backgroundColor = "yellow";
+// })
+
+
+// abcd.addEventListener("mouseout", function(){
+//     abcd.style.backgroundColor = "red";
+// })
+
+// window.addEventListener("mousemove",function(details){
+//     abcd.style.top = details.clientX, + "px";
+//     abcd.style.left = details.clientY, + "px";
+//     console.log(details.clientX,details.clientY)
+// })
+
+
+// let nm = document.querySelector("#name");
+// let form = document.querySelector("form");
+
+// form.addEventListener("submit",function(details){
+//     details.defaultPrevented();
+
+
+//     if(nm.ariaValueMax.length <=2){
+//         document.querySelector("#hide").style.display = "initial"
+//     }
+//     else{
+//         document.querySelector("#hide").style.display = "none"
+//     }
+
+// })
+
+// let count = 10;
+// let interval = setInterval((function) {
+//     if(count<=1){
+//         console.log(count)
+//     } else{
+//         clearInterval(interval)
+//     }
+// }, interval);
+
+let count = 10;
+ let interval = setInterval(function(){
+    if(count>=1){
+
+        console.log(count)
+    count--;
+    
+    }
+    else{
+        clearInterval(interval)
+    }
+},1000);
