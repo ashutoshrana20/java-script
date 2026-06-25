@@ -155,15 +155,195 @@
 //     }
 // }, interval);
 
-let count = 10;
- let interval = setInterval(function(){
-    if(count>=1){
+// let count = 10;
+//  let interval = setInterval(function(){
+//     if(count>=1){
 
-        console.log(count)
-    count--;
+//         console.log(count)
+//     count--;
     
-    }
-    else{
-        clearInterval(interval)
-    }
-},1000);
+//     }
+//     else{
+//         clearInterval(interval)
+//     }
+// },1000);
+
+// let x = 10;
+
+// function greet(name){
+//      let message = "hello";
+//      console.log(message,name,x)
+// }
+// greet("AShu")
+
+// let result = 0;
+// function cal(opp,x,y){
+// if(opp==="Add"){
+//      result = x+y;
+
+// }
+// else if(opp==="subtract"){
+//      result = x-y
+// }
+// else if(opp==="multply"){
+//      result = x*y;
+// } 
+// else if(opp==="divide"){
+//      result = x/y
+// }
+// else{
+//      result = -1;
+// }
+// return result;
+
+// }
+
+// let results = cal("multply",20,10)
+// console.log("result",results)
+
+
+
+
+// let balance = 1000;
+
+// function checkbalance(){
+//      console.log("your current blance is ",balance)
+// }
+// function deposite(amount){
+//     balance =  balance + amount;
+//      console.log("your total blance is with deposite ",amount )
+// }
+// function withdrawl(amount){
+//      balance = balance - amount; 
+//     console.log("your total blance is ,with withdrawl", amount)
+
+// }
+// checkbalance()
+// deposite(15000)
+// checkbalance()
+// withdrawl(10000)
+// checkbalance()
+// withdrawl(2000)
+// checkbalance()
+
+
+
+// let obj = {
+//     name: "harsh",
+//     age:24,
+//    sayHi: function (){
+//    console.log(this.name)
+//     }
+// }
+// obj.sayHi()
+
+
+// let name = document.querySelector("h1")
+// .addEventListener("click", function(){
+//     console.log(this)
+// })
+
+
+
+
+// let form = document.querySelector("form")
+
+// const userManager = {
+//     users: [],
+//     init:function(){
+//    form.addEventListener("submit",this.submitForm() );
+//     },
+//     submitForm: function(e){
+//         e.preventDefault();
+//         console.log(this);
+//     },
+
+
+//     adduser: function(){},
+//     removeUser: function(){},
+// };
+// userManager.init();
+
+
+
+// function Creatbiscuit(name,price,quantity,company,category){
+//     this.name = name;
+//     this.quntity = quantity;
+//     this.company = company;
+//     this.price = price;
+//     this.category = category;
+
+// }
+
+// let biscuit1 = new Creatbiscuit("oreo",10,5,"cadbury","choclate");
+// let biscuit2 = new Creatbiscuit("Fantsy",20,9,"Cadbury","choclete Field")
+
+
+// function kuchderbaadm(val){
+    
+//     setTimeout(() => {
+//         console.log("hrllo")
+//     },3000);
+
+// }
+// kuchderbaadm();
+
+
+// setInterval(() => {
+//     console.log("Hello Ashu");
+// }, 2000);
+
+
+//    let id = setInterval(() => {
+//     console.log("running")
+//    }, 1000); 
+
+//    setTimeout(() => {
+//     clearInterval(id)
+//    }, 5000);
+
+
+   
+//   console.log("start");
+
+//   setTimeout(() => {
+//     console.log("set time")
+//   }, 2000);
+//   console.log("end")
+
+// setInterval(() => {
+//     console.log("setInterval")
+// }, 3000);
+
+
+
+
+
+// let student = {
+//     name:"Ashu",
+//     age:25,
+//     class:10,
+// }
+
+// console.log(student)
+// console.log(student.age)
+
+
+// let id = setInterval(() => {
+//     console.log("hello ")
+// },1000);
+
+// setTimeout(() => {
+//     clearInterval(id)
+// }, 5000);
+
+
+
+function callbackee(ashu,cb){
+setTimeout(() => {
+    console.log(`profile fatched of ${ashu}`);
+}, 3000);
+}
+callbackee("hyyy",function(){});
+
+console.log(`hello ashutosh {ashu}`)
